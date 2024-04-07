@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.inner{
+  padding: 0 20px;
+}
+.login{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.login >button{
+  border: none;
+  background: none;
+  padding:4px 6px;
+  cursor: pointer;
+}
+.login >button:hover{
+  border-radius: 5px;
+  background-color: #000;
+  color:#fff;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logo >img{
+  width: 100px;
+  cursor: pointer;
+}
+
+.menu-search{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menuList{
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  margin-bottom: 0;
+}
+.menuList >li{
+  cursor: pointer;
+  padding:2px 4px;
+}
+.menuList >li:hover{
+  border-radius: 5px;
+  background-color: #000;
+  color:#fff;
+}
+
+.search{
+  position: absolute;
+  right: 0;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #000;
+}
+
+.searchBar{
+  border: none;
+  background: none;
+  outline: none;
+  padding:4px 2px 2px 6px;
+  font-size: 14px;
+  width:120px;
+}
+
+.itemImgBox {
+  overflow: hidden;
+}
+.itemImgBox >img{
+  width:100%;
+  cursor: pointer;
+}
+.itemImgBox >img:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.detailBox{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap:10px;
+}
+
+.detailImg{
+  width:30%;
+}
+.detailImg img{
+  width:100%;
+}
+.size{
+  padding:4px 4px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.detaillPlusBtn{
+  width:140px;
+}
+
+
